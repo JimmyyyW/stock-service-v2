@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://jWhitfield:qwertyPotato99@fdm05-06-t1f4g.mongodb.net/test?retryWrites=true&w=majority
+      database: fdm_stocks
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
