@@ -1,23 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c82e46d3-c0c0-45f9-a4a6-8403ca2a006f" name="Default Changelist" comment="" />
+    <list default="true" id="c82e46d3-c0c0-45f9-a4a6-8403ca2a006f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/model/AddStock.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/controller/StockRestControllerITTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/model/AddStockTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/controller/StockController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/controller/StockController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/service/StockService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/service/StockService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/controller/StockRestControllerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/controller/StockRestControllerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/service/StockServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/service/StockServiceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getAllStocks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getAllStocks$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getSingleStock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getSingleStock$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getSingleStock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getSingleStock$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$getStockValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$getStockValue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$updateLatestTrade$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$updateLatestTrade$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$updateLatestTrade$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$updateLatestTrade$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/controller/StockRestControllerTest$getStocks_take47$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/controller/StockRestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/controller/StockRestControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/service/StockServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/service/StockServiceTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="225" />
+    <option name="myElementSize" value="285" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -27,6 +51,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WwGiX2Qpqdp3Lvt06nr97TYGAb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,6 +63,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -56,16 +82,24 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in stock-service-v2">
-    <configuration name="All in stock-service-v2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.com.stockify.stockservicev2 in stock-service-v2">
+    <configuration name="AddStockTest.initialise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stock-service-v2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stockify.stockservicev2.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stockify.stockservicev2.model" />
+      <option name="MAIN_CLASS_NAME" value="com.stockify.stockservicev2.model.AddStockTest" />
+      <option name="METHOD_NAME" value="initialise" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockRestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StockRestControllerTest.createNewStockReturnsFromController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stock-service-v2" />
       <extension name="coverage">
         <pattern>
@@ -75,12 +109,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.stockify.stockservicev2.controller" />
       <option name="MAIN_CLASS_NAME" value="com.stockify.stockservicev2.controller.StockRestControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="createNewStockReturnsFromController" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockServiceTest.serviceInvokesRepository_mockReturnsFluxOfStocks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StockServiceTest.createsNewStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stock-service-v2" />
       <extension name="coverage">
         <pattern>
@@ -90,23 +125,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.stockify.stockservicev2.service" />
       <option name="MAIN_CLASS_NAME" value="com.stockify.stockservicev2.service.StockServiceTest" />
-      <option name="METHOD_NAME" value="serviceInvokesRepository_mockReturnsFluxOfStocks" />
+      <option name="METHOD_NAME" value="createsNewStock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockTest.initialise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StockServiceTest.updateLatestTradeReturnsSuccessWhenNoError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stock-service-v2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stockify.stockservicev2.model.*" />
+          <option name="PATTERN" value="com.stockify.stockservicev2.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.stockify.stockservicev2.model" />
-      <option name="MAIN_CLASS_NAME" value="com.stockify.stockservicev2.model.StockTest" />
-      <option name="METHOD_NAME" value="initialise" />
+      <option name="PACKAGE_NAME" value="com.stockify.stockservicev2.service" />
+      <option name="MAIN_CLASS_NAME" value="com.stockify.stockservicev2.service.StockServiceTest" />
+      <option name="METHOD_NAME" value="updateLatestTradeReturnsSuccessWhenNoError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in stock-service-v2" />
-        <item itemvalue="JUnit.StockRestControllerTest" />
         <item itemvalue="JUnit.com.stockify.stockservicev2 in stock-service-v2" />
-        <item itemvalue="JUnit.StockTest.initialise" />
-        <item itemvalue="JUnit.StockServiceTest.serviceInvokesRepository_mockReturnsFluxOfStocks" />
+        <item itemvalue="JUnit.StockServiceTest.createsNewStock" />
+        <item itemvalue="JUnit.StockRestControllerTest.createNewStockReturnsFromController" />
+        <item itemvalue="JUnit.AddStockTest.initialise" />
+        <item itemvalue="JUnit.StockServiceTest.updateLatestTradeReturnsSuccessWhenNoError" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +202,7 @@
       <workItem from="1590505503512" duration="584000" />
       <workItem from="1590506260998" duration="95000" />
       <workItem from="1590506360984" duration="2607000" />
-      <workItem from="1590586503204" duration="1103000" />
+      <workItem from="1590586503204" duration="9216000" />
     </task>
     <servers />
   </component>
@@ -180,7 +215,7 @@
     </state>
     <state x="1511" y="-930" key="#Plugins/326.-1417.3440.1417/0.23.1440.825/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590506242264" />
     <state x="1511" y="-930" key="#Plugins/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590505520276" />
-    <state width="2785" height="374" key="GridCell.Tab.0.bottom" timestamp="1590587605350">
+    <state width="2785" height="374" key="GridCell.Tab.0.bottom" timestamp="1590596772530">
       <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.0.bottom/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938604" />
@@ -196,11 +231,12 @@
     <state width="868" height="206" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301540" />
     <state width="1398" height="299" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394917" />
     <state width="1632" height="324" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609172" />
-    <state width="2785" height="374" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590587605350" />
+    <state width="2785" height="374" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596772530" />
+    <state width="2785" height="374" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590593414338" />
     <state width="1398" height="299" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561085" />
     <state width="1632" height="401" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097541" />
     <state width="2160" height="386" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658327" />
-    <state width="2785" height="374" key="GridCell.Tab.0.center" timestamp="1590587605349">
+    <state width="2785" height="374" key="GridCell.Tab.0.center" timestamp="1590596772528">
       <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.0.center/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938603" />
@@ -216,11 +252,12 @@
     <state width="868" height="206" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301538" />
     <state width="1398" height="299" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394916" />
     <state width="1632" height="324" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609170" />
-    <state width="2785" height="374" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590587605349" />
+    <state width="2785" height="374" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596772528" />
+    <state width="2785" height="374" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590593414338" />
     <state width="1398" height="299" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561084" />
     <state width="1632" height="401" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097540" />
     <state width="2160" height="386" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658326" />
-    <state width="2785" height="374" key="GridCell.Tab.0.left" timestamp="1590587605348">
+    <state width="2785" height="374" key="GridCell.Tab.0.left" timestamp="1590596772527">
       <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.0.left/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938601" />
@@ -236,11 +273,12 @@
     <state width="868" height="206" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301538" />
     <state width="1398" height="299" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394916" />
     <state width="1632" height="324" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609169" />
-    <state width="2785" height="374" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590587605348" />
+    <state width="2785" height="374" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596772527" />
+    <state width="2785" height="374" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590593414337" />
     <state width="1398" height="299" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561083" />
     <state width="1632" height="401" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097540" />
     <state width="2160" height="386" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658325" />
-    <state width="2785" height="374" key="GridCell.Tab.0.right" timestamp="1590587605349">
+    <state width="2785" height="374" key="GridCell.Tab.0.right" timestamp="1590596772529">
       <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.0.right/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938604" />
@@ -256,12 +294,13 @@
     <state width="868" height="206" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301539" />
     <state width="1398" height="299" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394917" />
     <state width="1632" height="324" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609171" />
-    <state width="2785" height="374" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590587605349" />
+    <state width="2785" height="374" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596772529" />
+    <state width="2785" height="374" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590593414338" />
     <state width="1398" height="299" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561084" />
     <state width="1632" height="401" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097541" />
     <state width="2160" height="386" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658326" />
-    <state width="1632" height="401" key="GridCell.Tab.1.bottom" timestamp="1590503097542">
-      <screen x="-1594" y="-1057" width="1920" height="1057" />
+    <state width="2785" height="374" key="GridCell.Tab.1.bottom" timestamp="1590596124123">
+      <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.1.bottom/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938607" />
     <state width="2160" height="206" key="GridCell.Tab.1.bottom/-1104.-1417.3440.1417/0.23.1440.806/-3024.-1196.1920.1057@-1104.-1417.3440.1417" timestamp="1584380485773" />
@@ -276,11 +315,13 @@
     <state width="868" height="206" key="GridCell.Tab.1.bottom/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301543" />
     <state width="1398" height="299" key="GridCell.Tab.1.bottom/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394920" />
     <state width="1632" height="324" key="GridCell.Tab.1.bottom/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609174" />
+    <state width="2785" height="374" key="GridCell.Tab.1.bottom/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596124123" />
+    <state width="2785" height="374" key="GridCell.Tab.1.bottom/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590591936989" />
     <state width="1398" height="299" key="GridCell.Tab.1.bottom/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561087" />
     <state width="1632" height="401" key="GridCell.Tab.1.bottom/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097542" />
     <state width="2160" height="386" key="GridCell.Tab.1.bottom/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658329" />
-    <state width="1632" height="401" key="GridCell.Tab.1.center" timestamp="1590503097542">
-      <screen x="-1594" y="-1057" width="1920" height="1057" />
+    <state width="2785" height="374" key="GridCell.Tab.1.center" timestamp="1590596124122">
+      <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.1.center/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938605" />
     <state width="2160" height="206" key="GridCell.Tab.1.center/-1104.-1417.3440.1417/0.23.1440.806/-3024.-1196.1920.1057@-1104.-1417.3440.1417" timestamp="1584380485772" />
@@ -295,11 +336,13 @@
     <state width="868" height="206" key="GridCell.Tab.1.center/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301542" />
     <state width="1398" height="299" key="GridCell.Tab.1.center/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394918" />
     <state width="1632" height="324" key="GridCell.Tab.1.center/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609173" />
+    <state width="2785" height="374" key="GridCell.Tab.1.center/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596124122" />
+    <state width="2785" height="374" key="GridCell.Tab.1.center/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590591936987" />
     <state width="1398" height="299" key="GridCell.Tab.1.center/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561086" />
     <state width="1632" height="401" key="GridCell.Tab.1.center/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097542" />
     <state width="2160" height="386" key="GridCell.Tab.1.center/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658328" />
-    <state width="1632" height="401" key="GridCell.Tab.1.left" timestamp="1590503097541">
-      <screen x="-1594" y="-1057" width="1920" height="1057" />
+    <state width="2785" height="374" key="GridCell.Tab.1.left" timestamp="1590596124121">
+      <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.1.left/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938605" />
     <state width="2160" height="206" key="GridCell.Tab.1.left/-1104.-1417.3440.1417/0.23.1440.806/-3024.-1196.1920.1057@-1104.-1417.3440.1417" timestamp="1584380485771" />
@@ -314,11 +357,13 @@
     <state width="868" height="206" key="GridCell.Tab.1.left/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301541" />
     <state width="1398" height="299" key="GridCell.Tab.1.left/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394918" />
     <state width="1632" height="324" key="GridCell.Tab.1.left/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609172" />
+    <state width="2785" height="374" key="GridCell.Tab.1.left/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596124121" />
+    <state width="2785" height="374" key="GridCell.Tab.1.left/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590591936987" />
     <state width="1398" height="299" key="GridCell.Tab.1.left/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561086" />
     <state width="1632" height="401" key="GridCell.Tab.1.left/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097541" />
     <state width="2160" height="386" key="GridCell.Tab.1.left/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658327" />
-    <state width="1632" height="401" key="GridCell.Tab.1.right" timestamp="1590503097542">
-      <screen x="-1594" y="-1057" width="1920" height="1057" />
+    <state width="2785" height="374" key="GridCell.Tab.1.right" timestamp="1590596124123">
+      <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.1.right/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938607" />
     <state width="2160" height="206" key="GridCell.Tab.1.right/-1104.-1417.3440.1417/0.23.1440.806/-3024.-1196.1920.1057@-1104.-1417.3440.1417" timestamp="1584380485772" />
@@ -333,6 +378,8 @@
     <state width="868" height="206" key="GridCell.Tab.1.right/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301543" />
     <state width="1398" height="299" key="GridCell.Tab.1.right/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394919" />
     <state width="1632" height="324" key="GridCell.Tab.1.right/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609174" />
+    <state width="2785" height="374" key="GridCell.Tab.1.right/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596124123" />
+    <state width="2785" height="374" key="GridCell.Tab.1.right/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590591936988" />
     <state width="1398" height="299" key="GridCell.Tab.1.right/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561087" />
     <state width="1632" height="401" key="GridCell.Tab.1.right/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097542" />
     <state width="2160" height="386" key="GridCell.Tab.1.right/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658328" />
@@ -379,9 +426,10 @@
     </state>
     <state x="-1205" y="-825" key="new project wizard/326.-1417.3440.1417/0.23.1440.806/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590342138782" />
     <state x="1380" y="-1091" key="new project wizard/326.-1417.3440.1417/0.23.1440.825/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590506765749" />
-    <state x="1645" y="-981" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1590586651697">
+    <state x="1645" y="-981" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1590595355203">
       <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
+    <state x="1645" y="-981" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590595355203" />
     <state x="1645" y="-981" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590586651697" />
     <state x="1387" y="-1189" width="1601" height="1189" key="search.everywhere.popup" timestamp="1590506236896">
       <screen x="326" y="-1417" width="3440" height="1417" />
@@ -391,7 +439,7 @@
     <state x="1387" y="-1189" width="1601" height="1189" key="search.everywhere.popup/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590505511325" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/stock_service_v2$com_stockify_stockservicev2_in_stock_service_v2.ic" NAME="com.stockify.stockservicev2 in stock-service-v2 Coverage Results" MODIFIED="1590586625321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/stock_service_v2$com_stockify_stockservicev2_in_stock_service_v2.ic" NAME="com.stockify.stockservicev2 in stock-service-v2 Coverage Results" MODIFIED="1590596772500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.stockify.stockservicev2.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/stock_service_v2$All_in_stock_service_v2.ic" NAME="All in stock-service-v2 Coverage Results" MODIFIED="1590587118144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

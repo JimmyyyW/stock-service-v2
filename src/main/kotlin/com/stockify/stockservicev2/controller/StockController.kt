@@ -1,5 +1,6 @@
 package com.stockify.stockservicev2.controller
 
+import com.stockify.stockservicev2.model.AddStock
 import com.stockify.stockservicev2.model.Stock
 //import com.stockify.stockservicev2.model.StockHistory
 //import com.stockify.stockservicev2.model.StockPrice
@@ -55,6 +56,11 @@ class StockRestController(private val stockService: StockService
     @PutMapping(value = ["api/v2/stocks/update/{symbol}"], produces = [MediaType.APPLICATION_JSON_VALUE])
     fun updateLatest(@RequestBody time: String, @PathVariable symbol: String): Mono<String> {
         return stockService.updateLatestTrade(symbol, time)
+    }
+
+    @PostMapping(value= ["api/v2/stocks/new"], produces = [MediaType.APPLICATION_JSON_VALUE])
+    fun createNewStock(@RequestBody stock: AddStock): Mono<Stock> {
+        return stockService.createStock(stock)
     }
 
 //    private fun randomStockPrice(): Number {
