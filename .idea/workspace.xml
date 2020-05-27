@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c82e46d3-c0c0-45f9-a4a6-8403ca2a006f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/model/AddStock.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/controller/StockRestControllerITTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/model/AddStockTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/service/EmailBuddyService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/controller/StockController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/controller/StockController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/service/StockService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/stockify/stockservicev2/service/StockService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/controller/StockRestControllerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/controller/StockRestControllerTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/service/StockServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/stockify/stockservicev2/service/StockServiceTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getAllStocks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getAllStocks$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getSingleStock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getSingleStock$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getSingleStock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController$getSingleStock$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/controller/StockRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$getStockValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$getStockValue$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$updateLatestTrade$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$updateLatestTrade$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$updateLatestTrade$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService$updateLatestTrade$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stockify/stockservicev2/service/StockService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/controller/StockRestControllerTest$getStocks_take47$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/controller/StockRestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/controller/StockRestControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/service/StockServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stockify/stockservicev2/service/StockServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -82,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.stockify.stockservicev2 in stock-service-v2">
+  <component name="RunManager" selected="Spring Boot.StockServiceV2Application">
     <configuration name="AddStockTest.initialise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stock-service-v2" />
       <extension name="coverage">
@@ -202,7 +187,7 @@
       <workItem from="1590505503512" duration="584000" />
       <workItem from="1590506260998" duration="95000" />
       <workItem from="1590506360984" duration="2607000" />
-      <workItem from="1590586503204" duration="9216000" />
+      <workItem from="1590586503204" duration="12848000" />
     </task>
     <servers />
   </component>
@@ -215,7 +200,7 @@
     </state>
     <state x="1511" y="-930" key="#Plugins/326.-1417.3440.1417/0.23.1440.825/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590506242264" />
     <state x="1511" y="-930" key="#Plugins/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590505520276" />
-    <state width="2785" height="374" key="GridCell.Tab.0.bottom" timestamp="1590596772530">
+    <state width="2785" height="374" key="GridCell.Tab.0.bottom" timestamp="1590600078592">
       <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.0.bottom/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938604" />
@@ -231,12 +216,12 @@
     <state width="868" height="206" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301540" />
     <state width="1398" height="299" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394917" />
     <state width="1632" height="324" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609172" />
-    <state width="2785" height="374" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596772530" />
+    <state width="2785" height="374" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590600078592" />
     <state width="2785" height="374" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590593414338" />
     <state width="1398" height="299" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561085" />
     <state width="1632" height="401" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097541" />
     <state width="2160" height="386" key="GridCell.Tab.0.bottom/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658327" />
-    <state width="2785" height="374" key="GridCell.Tab.0.center" timestamp="1590596772528">
+    <state width="2785" height="374" key="GridCell.Tab.0.center" timestamp="1590600078591">
       <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.0.center/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938603" />
@@ -252,12 +237,12 @@
     <state width="868" height="206" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301538" />
     <state width="1398" height="299" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394916" />
     <state width="1632" height="324" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609170" />
-    <state width="2785" height="374" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596772528" />
+    <state width="2785" height="374" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590600078591" />
     <state width="2785" height="374" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590593414338" />
     <state width="1398" height="299" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561084" />
     <state width="1632" height="401" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097540" />
     <state width="2160" height="386" key="GridCell.Tab.0.center/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658326" />
-    <state width="2785" height="374" key="GridCell.Tab.0.left" timestamp="1590596772527">
+    <state width="2785" height="374" key="GridCell.Tab.0.left" timestamp="1590600078590">
       <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.0.left/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938601" />
@@ -273,12 +258,12 @@
     <state width="868" height="206" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301538" />
     <state width="1398" height="299" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394916" />
     <state width="1632" height="324" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609169" />
-    <state width="2785" height="374" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596772527" />
+    <state width="2785" height="374" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590600078590" />
     <state width="2785" height="374" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590593414337" />
     <state width="1398" height="299" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561083" />
     <state width="1632" height="401" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097540" />
     <state width="2160" height="386" key="GridCell.Tab.0.left/326.-1417.3440.1417/0.23.1440.877/-1594.-1205.1920.985@326.-1417.3440.1417" timestamp="1584812658325" />
-    <state width="2785" height="374" key="GridCell.Tab.0.right" timestamp="1590596772529">
+    <state width="2785" height="374" key="GridCell.Tab.0.right" timestamp="1590600078592">
       <screen x="326" y="-1417" width="3440" height="1417" />
     </state>
     <state width="2160" height="206" key="GridCell.Tab.0.right/-1104.-1417.3440.1345/0.23.1440.877/-3024.-1196.1920.1057@-1104.-1417.3440.1345" timestamp="1584378938604" />
@@ -294,7 +279,7 @@
     <state width="868" height="206" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.806/-1594.-1205.1920.1057@326.-1417.3440.1417" timestamp="1586093301539" />
     <state width="1398" height="299" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590352394917" />
     <state width="1632" height="324" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.812/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1588967609171" />
-    <state width="2785" height="374" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590596772529" />
+    <state width="2785" height="374" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.814/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590600078592" />
     <state width="2785" height="374" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.816/-1594.-1057.1920.1057@326.-1417.3440.1417" timestamp="1590593414338" />
     <state width="1398" height="299" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.821/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590492561084" />
     <state width="1632" height="401" key="GridCell.Tab.0.right/326.-1417.3440.1417/0.23.1440.826/-1594.-1057.1920.1057@-1594.-1057.1920.1057" timestamp="1590503097541" />

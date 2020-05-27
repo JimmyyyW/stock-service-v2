@@ -2,6 +2,7 @@ package com.stockify.stockservicev2.controller
 
 import com.stockify.stockservicev2.model.AddStock
 import com.stockify.stockservicev2.model.Stock
+import com.stockify.stockservicev2.service.EmailBuddyService
 //import com.stockify.stockservicev2.model.StockHistory
 //import com.stockify.stockservicev2.model.StockPrice
 //import com.stockify.stockservicev2.service.StockHistoryService
@@ -16,7 +17,7 @@ import java.util.concurrent.ThreadLocalRandom
 
 
 @RestController
-class StockRestController(private val stockService: StockService
+class StockRestController(private val stockService: StockService, private val emailBuddyService: EmailBuddyService
                           /*private val stockHistoryService: StockHistoryService*/) {
 
     // Reactive streams testing
@@ -31,36 +32,65 @@ class StockRestController(private val stockService: StockService
     fun getAllStocks(): Flux<MutableList<Stock>> {
         return Flux.interval(Duration.ZERO, Duration.ofSeconds(2))
                 .flatMap { stockService.getAllStocks().collectList() }
+                .onErrorMap { throwable ->
+                    throwable.message?.let { emailBuddyService.sendErrorEmail(it)
+                        Exception(throwable.message)
+                    }
+                }
 
     }
 
     @GetMapping(value = ["api/v2/stocks/xml"], produces = [MediaType.APPLICATION_JSON_VALUE])
     fun getAllStocksOrderedXML(): Mono<MutableList<Stock>> {
         return stockService.getAllStocks().collectList()
+                .onErrorMap { throwable ->
+                    throwable.message?.let { emailBuddyService.sendErrorEmail(it)
+                        Exception(throwable.message)
+                    }
+                }
     }
 
     @GetMapping(value = ["api/v2/stocks/{symbol}"], produces = [MediaType.TEXT_EVENT_STREAM_VALUE])
     fun getSingleStock(@PathVariable symbol: String): Flux<Stock> {
         return Flux.interval(Duration.ZERO, Duration.ofSeconds(10))
                 .flatMap { stockService.getSingle(symbol) }
-                .onErrorMap { throwable -> Exception(throwable.message) }
+                .onErrorMap { throwable ->
+                    throwable.message?.let { emailBuddyService.sendErrorEmail(it) }
+                    Exception(throwable.message)
+                }
+
 
     }
 
     @GetMapping(value = ["api/v2/stocks/value/{symbol}"], produces = [MediaType.APPLICATION_JSON_VALUE])
     fun getValue(@PathVariable symbol: String): Mono<Number> {
         return stockService.getStockValue(symbol)
+                .onErrorMap { throwable ->
+                         throwable.message?.let { emailBuddyService.sendErrorEmail(it)
+                         Exception(throwable.message)
+                     }
+                }
     }
 
 
     @PutMapping(value = ["api/v2/stocks/update/{symbol}"], produces = [MediaType.APPLICATION_JSON_VALUE])
     fun updateLatest(@RequestBody time: String, @PathVariable symbol: String): Mono<String> {
         return stockService.updateLatestTrade(symbol, time)
+                .onErrorMap { throwable ->
+            throwable.message?.let { emailBuddyService.sendErrorEmail(it)
+                Exception(throwable.message)
+            }
+        }
     }
 
     @PostMapping(value= ["api/v2/stocks/new"], produces = [MediaType.APPLICATION_JSON_VALUE])
     fun createNewStock(@RequestBody stock: AddStock): Mono<Stock> {
         return stockService.createStock(stock)
+                .onErrorMap { throwable ->
+                    throwable.message?.let { emailBuddyService.sendErrorEmail(it)
+                        Exception(throwable.message)
+                    }
+                }
     }
 
 //    private fun randomStockPrice(): Number {

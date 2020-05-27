@@ -12,9 +12,10 @@ import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 
 
+
 @Service
 class StockService constructor(private val stockRepository: StockRepository,
-                               private val stockRepositoryList: StockRepositoryList) {
+                               private val emailBuddyService: EmailBuddyService) {
 
     fun getAllStocks(): Flux<Stock> {
         return stockRepository.findAll()
@@ -22,11 +23,21 @@ class StockService constructor(private val stockRepository: StockRepository,
 
     fun getSingle(symbol: String): Flux<Stock> {
         return stockRepository.findBySymbol(symbol)
+                .onErrorMap { throwable ->
+                    throwable.message?.let { emailBuddyService.sendErrorEmail(it)
+                        Exception(throwable.message)
+                    }
+                }
     }
 
     fun getStockValue(symbol: String): Mono<Number> {
         return stockRepository.findTopBySymbol(symbol)
                 .map { it.value }
+                .onErrorMap { throwable ->
+                    throwable.message?.let { emailBuddyService.sendErrorEmail(it)
+                        Exception(throwable.message)
+                    }
+                }
     }
 
     fun updateLatestTrade(symbol: String, time: String): Mono<String> {
@@ -36,12 +47,22 @@ class StockService constructor(private val stockRepository: StockRepository,
                     stockRepository.save(it).subscribe()
                 }
                 .flatMap {Mono.just("{ \"outcome\": \"success\" }") }
+                .onErrorMap { throwable ->
+                    throwable.message?.let { emailBuddyService.sendErrorEmail(it)
+                        Exception(throwable.message)
+                    }
+                }
     }
 
     fun createStock(stock: AddStock): Mono<Stock> {
         val newStock = Stock(ObjectId(), 0, false, stock.symbol, stock.name,
                 stock.value, stock.volume, 0, 0, "N/A")
         return stockRepository.save(newStock)
+                .onErrorMap { throwable ->
+                    throwable.message?.let { emailBuddyService.sendErrorEmail(it)
+                        Exception(throwable.message)
+                    }
+                }
     }
 
 }
